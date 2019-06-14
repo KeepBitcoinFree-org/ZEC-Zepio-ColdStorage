@@ -7,7 +7,7 @@ When I first installed the ZECwallet & then Zepio on my desktop, I was unsettled
 
 
 ## What you'll need (the hardware/software I will be focusing on): 
-1. Computer - Windows or Mac
+1. Windows or Mac OS
 2. ZEPIO wallet software - https://zepiowallet.com/ (ZECWALLET also works)
 3. VeraCrypt encryption software - https://www.veracrypt.fr/en/Downloads.html
       If using a Mac then you'll also need to install OSXFuse as noted on the VeraCypt website
