@@ -1,11 +1,12 @@
-#ZEC & Zepio cold storage on on a password protected, AES encrypted, hidden volume, cold storage USB 
+# ZEC - Zepio Cold Storage 
+### on a password protected, AES encrypted, hidden volume, cold storage USB 
 
-This is a method to store your ZEC wallet on a password protected, AES encrypted, hidden volume, cold storage USB. This guide will use Mac or Windows & the Zepio wallet which will can run a full ZEC node and utilize shielded addresses. This guide can also be found at: https://github.com/jigsawcrew/ZEC-Zepio-ColdStorage
+This is a method to store your ZEC wallet on a password protected, AES encrypted, hidden volume, cold storage USB. This guide will use Mac or Windows & the Zepio wallet which will can run a full ZEC node and utilize shielded addresses. 
 
 When I first installed the ZECwallet & then Zepio on my desktop, I was unsettled that the wallet was not protected with a password or seed phrase. The wallet file being stored on my local machine is all anyone needs to access my ZEC. I also have a ledger but I'm unable to use shielded addresses or run a full node using it, among other hardware/software issues.
 
 
-###What you'll need (the hardware/software I will be focusing on): 
+## What you'll need (the hardware/software I will be focusing on): 
 1. Computer - Windows or Mac
 2. ZEPIO wallet software - https://zepiowallet.com/ (ZECWALLET also works)
 3. VeraCrypt encryption software - https://www.veracrypt.fr/en/Downloads.html
@@ -13,7 +14,7 @@ When I first installed the ZECwallet & then Zepio on my desktop, I was unsettled
 4. USB drive
 	You'll want to get one with at least 50+ GB for blockchain storage. I'm using a 126GB USB drive for future storage needs.
 
-###Installation & Configuration Steps:
+## Installation & Configuration Steps:
 
 1. Set up VeraCrypt encrypted USB - 
 
@@ -35,9 +36,11 @@ You can select whether to make the VeraCrypt volume cross platform (which may re
 
 Once created, you can open either drive by connecting your USB & opening Veracrypt. Select "Mount All Devices" in VeraCrypt and type the password for the drive you wish to access. It may take up to 5 minutes to fully connect. 
 
+
 2. Set up Zepio on your OS (if it is already set up then skip to b. move files & configure to use new wallet dir)
 
 	a. Install Zepio and upon first opening, configure your wallet dir (matador) to use your connected encrypted drive. It should create a new folder within your encrypted drive and will only be accessible from Zepio when the USB be is connected and the VC drive has been mounted.
 
 
 	b. If you already have Zepio installed, make sure the app is closed. Open your encrypted drive and your current zecwallet dir. You can find this dir by finding your zcash.conf file and checking the directory listed there. Copy all files over to your encrypted drive (and keep your old one until you know it is working from the new USB). Next open your zcash.conf file and update the datadir to point to your encrypted drive. On a Mac, it would be something like "/Volumes/DRIVENAME/zecwallet". Once the files are copied over, and zcash.conf file is updated then you can open Zepio and let it resync any blocks it needs to. You are now running your Zepio ZEC wallet/full node with shielded addresses from an encrypted, password protected, cold storage USB.
+
