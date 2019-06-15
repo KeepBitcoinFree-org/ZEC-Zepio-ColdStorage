@@ -1,7 +1,7 @@
 # ZEC - Zepio Cold Storage solution
 ### A password protected, AES encrypted, hidden volume, cold storage USB drive
 
-When I first installed the ZECwallet & then Zepio on my desktop, I was a little unsettled that the wallet was not protected with a password or seed phrase. The wallet file, being stored on my local machine, is all anyone needs to access all the ZEC in the wallet. I also have a ledger but I'm unable to use shielded addresses or run a full node with it. This guide can also be found at: https://github.com/jigsawcrew/ZEC-Zepio-ColdStorage
+When I first installed the ZECwallet & then Zepio on my desktop, I was a little unsettled that the wallet was not protected with a password or seed phrase. The wallet file, being stored on my local machine, is all anyone needs to access all the ZEC in the wallet. You can also use a ledger but it is unable to use shielded addresses or run a full ZEC node. This guide can also be found at: https://github.com/jigsawcrew/ZEC-Zepio-ColdStorage
 
 This is a method to store your ZEC wallet on a password protected, AES encrypted, hidden volume, cold storage USB. This guide will use Mac or Windows & the Zepio wallet (or ZECwallet) which will run a full ZEC node and utilize shielded addresses.
 
