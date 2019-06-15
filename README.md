@@ -9,8 +9,7 @@ This is a method to store your ZEC wallet on a password protected, AES encrypted
 ## What you'll need (the hardware/software I will be focusing on): 
 1. Windows or Mac OS
 2. ZEPIO wallet software - https://zepiowallet.com/ (ZECWALLET also works)
-3. VeraCrypt encryption software - https://www.veracrypt.fr/en/Downloads.html
-      If using a Mac then you'll also need to install OSXFuse as noted on the VeraCypt website
+3. VeraCrypt encryption software - https://www.veracrypt.fr/en/Downloads.html (On Mac you'll also need to install OSXFuse as noted on the VeraCrypt website)
 4. USB drive - Get one with at least 50+ GB for blockchain storage. I'm using a 126GB USB drive for future storage needs.
 
 ## Installation & Configuration Steps:
